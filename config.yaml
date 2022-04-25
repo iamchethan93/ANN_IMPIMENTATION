@@ -1,0 +1,22 @@
+##All the code params can be stored here in this file.
+
+params:
+  epochs: 30
+  batch_size: 32
+  no_classes: 10
+  input_shape: [28,28]
+  loss_function: sparse_categorical_crossentropy
+  matrices: accuracy
+  optimizer: SGD
+  validation_datasize: 5000
+
+artifacts: 
+  artifacts_dir: artifacts 
+  model_dir: model
+  plots_dir: plots
+  checkpoint_dir: checkpoints 
+
+logs:
+  log_dir: logs_dir
+  general_logs: general_logs
+  tensorboard: tensorboard_logs
